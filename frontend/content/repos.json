@@ -2284,7 +2284,12 @@
     "alias": ["SlimefunReloadingProject/RykenSlimeCustomizer:main"],
     "buildOptions": {
       "name": "RykenSlimeCustomizer",
-      "version": "Build {version} (git {git_commit})"
+      "version": "Build {version} (git {git_commit})",
+      "gradle": {
+				"kotlin": true,
+				"shadowJar": true,
+				"target": "{name}-{version}"
+			}
     },
     "displayOptions": {
       "keywords": ["ryken自定义附属", "Ryken自定义附属", "RykenSC", "RSC"],
@@ -2435,7 +2440,12 @@
     "type": "maven",
     "buildOptions": {
       "name": "JustEnoughGuide",
-      "version": "Build {version} (git {git_commit})"
+      "version": "Build {version} (git {git_commit})",
+      "gradle": {
+				"kotlin": true,
+				"shadowJar": true,
+				"target": "{name}-{version}"
+			}
     },
     "displayOptions": {
       "hidden": false,
