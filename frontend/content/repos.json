@@ -2280,7 +2280,7 @@
     }
   },
   "balugaq/RykenSlimeCustomizer:main": {
-    "type": "maven",
+    "type": "gradle",
     "alias": ["SlimefunReloadingProject/RykenSlimeCustomizer:main"],
     "buildOptions": {
       "name": "RykenSlimeCustomizer",
@@ -2437,7 +2437,7 @@
     }
   },
   "balugaq/JustEnoughGuide:master": {
-    "type": "maven",
+    "type": "gradle",
     "buildOptions": {
       "name": "JustEnoughGuide",
       "version": "Build {version} (git {git_commit})",
